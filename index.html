@@ -2,29 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
-
+    <title>Shopping App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 </head>
 
 <body>
     <div class="wrapper">
         <div class="category-filter">
             <div class="container">
-
                 <div class="title">
-                    <h1>Select Your Choice</h1>
+                    <h1>SELECT YOUR CHOICE</h1>
                 </div>
-
                 <div class="btn">
                     <div class="filter-btns">
-                        <button type="button" onclick="filterProducts('Men')" class="filter-btn" id="men">MEN</button>
-                        <button type="button" onclick="filterProducts('Women')" class="filter-btn"
-                            id="men">WOMEN</button>
-                        <button type="button" onclick="filterProducts('Kids')" class="filter-btn" id="men">KIDS</button>
+                        <button type="button" onclick="filterProducts('Men')" class="filter-btn" id="men"><img class="icons" src="images/person-solid.svg" height="15px" />
+                            MEN
+                        </button>
+                        <button type="button" onclick="filterProducts('Women')" class="filter-btn" id="men"><img class="icons" src="images/person-dress-solid.svg" height="15px" />
+                            WOMEN
+                        </button>
+                        <button type="button" onclick="filterProducts('Kids')" class="filter-btn" id="men"><img class="icons" src="images/children-solid.svg" height="15px" />
+                            KIDS
+                        </button>
                     </div>
                 </div>
 
@@ -33,17 +37,9 @@
                         <!-- card -->
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     </div>
-
-
-
-
-
 
     <!-----------------------------------------javascrpit=----------------------------------- -->
     <script src="./script.js"></script>
